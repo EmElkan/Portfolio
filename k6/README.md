@@ -2,6 +2,8 @@
 
 [k6](https://k6.io/) is an open-source load testing tool for API performance testing.
 
+<img src="https://github.com/EmElkan/100DaysOfCode/blob/master/images/day47.png" alt="Image of k6 output">
+
 ### Links
 
 [Getting Started](https://k6.io/docs/) with k6 and performance testing.
