@@ -1,6 +1,7 @@
 ## About
 
-This is a place to keep track of my learning and demonstrate my software testing knowledge.
+This is a place to keep track of my learning and demonstrate my knowledge of software testing tools.
+
 
 ## Tools
 
