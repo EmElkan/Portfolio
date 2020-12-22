@@ -13,4 +13,6 @@ Learning and trying out different software testing tools.
 
 ### SpecFlow
 
-[SpecFlow](https://docs.specflow.org/projects/getting-started/en/latest/index.html) is an open-source framework for Behavior Driven Development, Acceptance Test Driven Development and Specification by Example.
+[SpecFlow](https://docs.specflow.org/projects/getting-started/en/latest/index.html) is an open-source framework for [Behavior Driven Development](https://specflow.org/bdd/), Acceptance Test Driven Development and Specification by Example.
+
+<img src="https://github.com/EmElkan/100DaysOfCode/blob/master/images/day69.gif" alt="Image of code snippet">
