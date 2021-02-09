@@ -6,11 +6,8 @@
 
 ### Sources
 
-[Getting Started](https://k6.io/docs/) with k6 and performance testing.
-
-[An Introduction to Performance Testing with Open Source Tools](https://www.youtube.com/watch?v=Xyq6GItCAvY&t=1793s)
-
-[InfluxDB + Grafana](https://k6.io/docs/results-visualization/influxdb-+-grafana#using-our-docker-compose-setup)
-
-[Beautiful Load Testing with k6 and Docker Compose](https://medium.com/swlh/beautiful-load-testing-with-k6-and-docker-compose-4454edb3a2e3)
+[Getting Started](https://k6.io/docs/)   
+[An Introduction to Performance Testing with Open Source Tools](https://www.youtube.com/watch?v=Xyq6GItCAvY&t=1793s)    
+[InfluxDB + Grafana](https://k6.io/docs/results-visualization/influxdb-+-grafana#using-our-docker-compose-setup)    
+[Beautiful Load Testing with k6 and Docker Compose](https://medium.com/swlh/beautiful-load-testing-with-k6-and-docker-compose-4454edb3a2e3)    
 
