@@ -1,13 +1,16 @@
-### k6
+## k6
 
 [k6](https://k6.io/) is an open-source load testing tool for API performance testing.
 
 <img src="https://github.com/EmElkan/100DaysOfCode/blob/master/images/day47.png" alt="Image of k6 output">
 
-### Links
+### Sources
 
 [Getting Started](https://k6.io/docs/) with k6 and performance testing.
 
-[Checks](https://k6.io/docs/using-k6/checks) are for codifying assertions, but unlike thresholds, checks will not affect the exit status of k6.
+[An Introduction to Performance Testing with Open Source Tools](https://www.youtube.com/watch?v=Xyq6GItCAvY&t=1793s)
 
-[Thresholds](https://k6.io/docs/using-k6/thresholds) are a pass/fail criteria used to specify the performance expectations of the system under test.
+[InfluxDB + Grafana](https://k6.io/docs/results-visualization/influxdb-+-grafana#using-our-docker-compose-setup)
+
+[Beautiful Load Testing with k6 and Docker Compose](https://medium.com/swlh/beautiful-load-testing-with-k6-and-docker-compose-4454edb3a2e3)
+
