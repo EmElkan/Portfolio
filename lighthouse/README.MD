@@ -2,6 +2,8 @@
 
 [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci) is a suite of tools that make continuously running, saving, retrieving, and asserting against Lighthouse results as easy as possible.
 
+<img src="https://github.com/EmElkan/100DaysOfCode/blob/master/images/day80.PNG" alt="Image of Lighthouse HTML report snippet" width="750">
+
 
 ### Sources
 
