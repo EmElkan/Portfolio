@@ -1,0 +1,25 @@
+{
+  "name": "softwaretesting",
+  "version": "1.0.0",
+  "description": "Learning and trying out different software testing tools.",
+  "main": "index.js",
+  "scripts": {
+    "lh:collect": "lhci collect --config ./lighthouse/config.json",
+    "lh:assert": "lhci assert --config ./lighthouse/config.json"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmElkan/SoftwareTesting.git"
+  },
+  "author": "EmElkan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmElkan/SoftwareTesting/issues"
+  },
+  "homepage": "https://github.com/EmElkan/SoftwareTesting#readme",
+  "dependencies": {
+    "@lhci/cli": "^0.7.0",
+    "puppeteer": "^7.1.0"
+  }
+}

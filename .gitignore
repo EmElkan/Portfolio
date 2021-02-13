@@ -459,3 +459,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Lighthouse-ci
+
+.lighthouseci/
