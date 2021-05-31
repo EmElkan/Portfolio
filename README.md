@@ -19,6 +19,6 @@ Learning and trying out different software testing tools.
 
 ### Lighthouse CI
 
-[Lighthouse](https://developers.google.com/web/tools/lighthouse) is an open-source, automated tool for improving the quality of web pages.
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) is an open-source, automated tool for improving the quality of web pages. Lighthouse CI makes it possible to add Lighthouse to a CI/CD pipeline.
 
 <img src="https://github.com/EmElkan/100DaysOfCode/blob/master/images/day80.PNG" alt="Image of Lighthouse HTML report snippet" width="700">
