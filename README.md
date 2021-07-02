@@ -21,7 +21,7 @@ Learning and trying out different software testing tools.
 
 [Postman](https://www.postman.com/) is a popular open source API testing tool.
 
-<img src="https://github.com/EmElkan/100DaysOfCode/blob/master/images/day88.gif" alt="Gif of Postman" width="750">
+<img src="https://github.com/EmElkan/100DaysOfCode/blob/master/images/day88.gif" alt="Gif of Postman">
 
 ### SpecFlow
 
