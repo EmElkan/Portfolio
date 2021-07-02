@@ -1,7 +1,7 @@
 
-[Postman](https://www.postman.com/) is an API client that makes it easy for people to create, share, test and document APIs.
+[Postman](https://www.postman.com/) is a popular open source API testing tool.
 
-<img src="https://github.com/EmElkan/100DaysOfCode/blob/master/images/day88.gif" alt="Gif of Postman" width="750">
+<img src="https://github.com/EmElkan/100DaysOfCode/blob/master/images/day88.gif" alt="Gif of Postman">
 
 
 ### Sources
