@@ -50,6 +50,8 @@ the correct security headers or that expected images and text are present.
 
 The Postman Visualizer lets you present response data in a more visual way. Postman has various Visualizer templates available to display charts, tables, plots, and maps.
 
+![image](https://user-images.githubusercontent.com/35890264/125205955-8a5b6680-e27c-11eb-994f-8dd0a1184ab5.png)
+
 ### Sources
 
 [Visualizing Responses](https://learning.postman.com/docs/sending-requests/visualizer/)     
