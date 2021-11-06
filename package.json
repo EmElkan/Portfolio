@@ -6,7 +6,6 @@
   "scripts": {
     "lh:collect": "lhci collect --config ./lighthouse/config.json",
     "lh:assert": "lhci assert --config ./lighthouse/config.json"
-
   },
   "repository": {
     "type": "git",
@@ -21,5 +20,8 @@
   "dependencies": {
     "@lhci/cli": "^0.7.0",
     "puppeteer": "^7.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.16.3"
   }
 }
