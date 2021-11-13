@@ -9,37 +9,37 @@ const config: PlaywrightTestConfig = {
     },
     projects: [
         {
-            name: 'Chrome',
+            name: 'Desktop_Chrome',
             use: {
                 browserName: 'chromium',
                 channel: 'chrome',
             },
         },
         {
-            name: 'Desktop Safari',
+            name: 'Desktop_Safari',
             use: {
                 browserName: 'webkit',
                 viewport: { width: 1200, height: 750 },
             }
         },
         {
-            name: 'Desktop Firefox',
+            name: 'Desktop_Firefox',
             use: {
                 browserName: 'firefox',
             }
         },
         {
-            name: 'Pixel 4',
+            name: 'Pixel_4',
             use: {
                 browserName: 'chromium',
                 ...devices['Pixel 4'],
             },
         },
         {
-            name: 'iPhone 11',
+            name: 'iPhone_12_Pro',
             use: {
                 browserName: 'webkit',
-                ...devices['iPhone 11'],
+                ...devices['iPhone 12 Pro'],
             },
         },
     ],
