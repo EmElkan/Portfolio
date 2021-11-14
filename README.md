@@ -17,6 +17,10 @@ Learning and trying out different software testing tools.
 
 <img src="https://github.com/EmElkan/100DaysOfCode/blob/master/images/day80.PNG" alt="Image of Lighthouse HTML report snippet" width="700">
 
+### Playwright
+
+[Playwright](https://playwright.dev/) is an open source, cross-browser, automation framework for end-to-end testing.
+
 ### Postman
 
 [Postman](https://www.postman.com/) is a popular open source API testing tool.
