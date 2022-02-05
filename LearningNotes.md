@@ -7,7 +7,7 @@
 [SecLists](https://github.com/danielmiessler/SecLists) - A collection of lists used during security assessments.     
 [Sublist3r](https://github.com/aboul3la/Sublist3r) - Collects and gathers subdomains for a target domain.    
 [fuff](https://github.com/ffuf/ffuf) - Web fuzzer.   
-[XSS Hunter](https://github.com/mandatoryprogrammer/xsshunter)
+[XSS Hunter](https://github.com/mandatoryprogrammer/xsshunter) - Performs Blind XSS attacks and captures cookies, URLs, page contents.    
 
 ## Reading
 
@@ -45,7 +45,7 @@ A set of guidelines and best practices to help organizations build and improve t
 
 ### Cross-site Scripting (XSS)
 
-[OWASP XSS Overview](https://owasp.org/www-community/attacks/xss/)
+[OWASP XSS Overview](https://owasp.org/www-community/attacks/xss/)      
 [TryHackMe XSS Room](https://tryhackme.com/room/xssgi)
 
 ```
