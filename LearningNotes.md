@@ -7,14 +7,16 @@
 [SecLists](https://github.com/danielmiessler/SecLists) - A collection of lists used during security assessments.     
 [Sublist3r](https://github.com/aboul3la/Sublist3r) - Collects and gathers subdomains for a target domain.    
 [fuff](https://github.com/ffuf/ffuf) - Web fuzzer.   
-[XSS Hunter](https://github.com/mandatoryprogrammer/xsshunter) - Performs Blind XSS attacks and captures cookies, URLs, page contents.    
+[XSS Hunter](https://github.com/mandatoryprogrammer/xsshunter) - Performs Blind XSS attacks and captures cookies, URLs, page contents.   
+[XSStrike](https://github.com/s0md3v/XSStrike) - A Cross Site Scripting detection suite.         
 
 ## Reading
 
 [OWASP Top 10](https://owasp.org/Top10/)     
 [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)      
 [Postgres SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/postgres-sql-injection-cheat-sheet)    
-[Bug Bounty Cheatsheet](https://m0chan.github.io/2019/12/17/Bug-Bounty-Cheetsheet.html)    
+[Bug Bounty Cheatsheet](https://m0chan.github.io/2019/12/17/Bug-Bounty-Cheetsheet.html)     
+[Command Injection Payload List](https://github.com/payloadbox/command-injection-payload-list)     
 
 ## Videos
 
