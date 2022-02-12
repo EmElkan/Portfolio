@@ -6,7 +6,8 @@
 [Wappalyze](https://www.wappalyzer.com/) - Find out the technology stack of a website.  
 [SecLists](https://github.com/danielmiessler/SecLists) - A collection of lists used during security assessments.     
 [Sublist3r](https://github.com/aboul3la/Sublist3r) - Collects and gathers subdomains for a target domain.    
-[fuff](https://github.com/ffuf/ffuf) - Web fuzzer.   
+[fuff](https://github.com/ffuf/ffuf) - Web fuzzer.    
+[Wfuzz](https://github.com/xmendez/wfuzz) - Web fuzzer.    
 [XSS Hunter](https://github.com/mandatoryprogrammer/xsshunter) - Performs Blind XSS attacks and captures cookies, URLs, page contents.   
 [XSStrike](https://github.com/s0md3v/XSStrike) - A Cross Site Scripting detection suite.         
 
@@ -83,4 +84,14 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert('XSS') )//%0D%0A%0d%0a//</stY
 %27%20UNION%20SELECT%20password%20FROM%20Users%20WHERE%20name%3D%27admin%27--
 UNION ALL SELECT user,NULL,NULL--
 ```
+
+## Burp Suite
+
+[THM Burp Suite Basics](https://tryhackme.com/room/burpsuitebasics)         
+[FoxyProxy](https://addons.mozilla.org/en-GB/firefox/addon/foxyproxy-basic/)
+
+Set up browser proxy and certificate. Turn intercept on and in proxy options configure rules - "Or Request Was Intercepted", "And URL Is in target scope". Send to repeater or send to intruder.
+
+- Browser hanging - Turn off Intercept.      
+- Can't intercept - Update Scope.
 
