@@ -9,7 +9,8 @@
 [fuff](https://github.com/ffuf/ffuf) - Web fuzzer.    
 [Wfuzz](https://github.com/xmendez/wfuzz) - Web fuzzer.    
 [XSS Hunter](https://github.com/mandatoryprogrammer/xsshunter) - Performs Blind XSS attacks and captures cookies, URLs, page contents.   
-[XSStrike](https://github.com/s0md3v/XSStrike) - A Cross Site Scripting detection suite.         
+[XSStrike](https://github.com/s0md3v/XSStrike) - A Cross Site Scripting detection suite.      
+[Burp Suite](https://portswigger.net/burp) - A tool for performing security testing of web applications.     
 
 ## Reading
 
@@ -85,7 +86,7 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert('XSS') )//%0D%0A%0d%0a//</stY
 UNION ALL SELECT user,NULL,NULL--
 ```
 
-## Burp Suite
+### Burp Suite
 
 [THM Burp Suite Basics](https://tryhackme.com/room/burpsuitebasics)         
 [FoxyProxy](https://addons.mozilla.org/en-GB/firefox/addon/foxyproxy-basic/)
