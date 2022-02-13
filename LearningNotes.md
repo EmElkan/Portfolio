@@ -2,7 +2,7 @@
 
 ## Tools
 
-[Base64 Decode and Encode](https://www.base64decode.org/)    
+[Base64 Decode](https://www.base64decode.org/) - Decode or encode base64.      
 [Wappalyze](https://www.wappalyzer.com/) - Find out the technology stack of a website.  
 [SecLists](https://github.com/danielmiessler/SecLists) - A collection of lists used during security assessments.     
 [Sublist3r](https://github.com/aboul3la/Sublist3r) - Collects and gathers subdomains for a target domain.    
@@ -10,7 +10,9 @@
 [Wfuzz](https://github.com/xmendez/wfuzz) - Web fuzzer.    
 [XSS Hunter](https://github.com/mandatoryprogrammer/xsshunter) - Performs Blind XSS attacks and captures cookies, URLs, page contents.   
 [XSStrike](https://github.com/s0md3v/XSStrike) - A Cross Site Scripting detection suite.      
-[Burp Suite](https://portswigger.net/burp) - A tool for performing security testing of web applications.     
+[Burp Suite](https://portswigger.net/burp) - A tool for performing security testing of web applications.        
+[CloudSploit](https://github.com/aquasecurity/cloudsploit) - Detects security risks in cloud infrastructure accounts.     
+[DNSDumpster](https://dnsdumpster.com/) - A research tool that can discover hosts related to a domain.     
 
 ## Reading
 
@@ -70,7 +72,7 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert('XSS') )//%0D%0A%0d%0a//</stY
 [OWASP SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)     
 [W3Schools SQL Injection](https://www.w3schools.com/sql/sql_injection.asp)      
 [THM SQL Injection](https://tryhackme.com/room/sqlinjectionlm)      
-[OWASP Testing_PostgreSQL](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05.4-Testing_PostgreSQL)
+[OWASP Testing PostgreSQL](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05.4-Testing_PostgreSQL)
 
 - Inband: data is extracted using the same channel that is used to inject the SQL code. This is the most straightforward kind of attack, in which the retrieved data is presented directly in the application web page.
 - Out-of-band: data is retrieved using a different channel (e.g., an email with the results of the query is generated and sent to the tester).
@@ -95,4 +97,16 @@ Set up browser proxy and certificate. Turn intercept on and in proxy options con
 
 - Browser hanging - Turn off Intercept.      
 - Can't intercept - Update Scope.
+
+### Network
+
+Return all the IPv4 addresses: ```nslookup -type=A example.com 0.0.0.0```     
+Email servers and configurations for a particular domain: ```nslookup -type=MX example.com```     
+
+```
+whois example.com
+nslookup example.com
+```
+
+
 
