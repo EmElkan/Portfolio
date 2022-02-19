@@ -10,15 +10,20 @@
 [Wfuzz](https://github.com/xmendez/wfuzz) - Web fuzzer.    
 [XSS Hunter](https://github.com/mandatoryprogrammer/xsshunter) - Performs Blind XSS attacks and captures cookies, URLs, page contents.   
 [XSStrike](https://github.com/s0md3v/XSStrike) - A Cross Site Scripting detection suite.      
-[Burp Suite](https://portswigger.net/burp) - A tool for performing security testing of web applications.        
+[Burp Suite](https://portswigger.net/burp) - A tool for performing security testing of web applications.       
+[FoxyProxy](https://addons.mozilla.org/en-GB/firefox/addon/foxyproxy-basic/) - Proxy management browser extension.    
 [CloudSploit](https://github.com/aquasecurity/cloudsploit) - Detects security risks in cloud infrastructure accounts.     
 [DNSDumpster](https://dnsdumpster.com/) - A research tool that can discover hosts related to a domain.     
+[Nmap](https://nmap.org/) - Discovers hosts and services on a computer network.     
+[arp-scan](https://github.com/royhills/arp-scan) - Uses the ARP protocol to discover and fingerprint IP hosts on the local network.    
+
 
 ## Reading
 
 [OWASP Top 10](https://owasp.org/Top10/)     
 [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)      
 [Postgres SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/postgres-sql-injection-cheat-sheet)    
+[Reverse Shell Cheat Sheet](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)     
 [Bug Bounty Cheatsheet](https://m0chan.github.io/2019/12/17/Bug-Bounty-Cheetsheet.html)     
 [Command Injection Payload List](https://github.com/payloadbox/command-injection-payload-list)     
 
@@ -91,7 +96,6 @@ UNION ALL SELECT user,NULL,NULL--
 ### Burp Suite
 
 [THM Burp Suite Basics](https://tryhackme.com/room/burpsuitebasics)         
-[FoxyProxy](https://addons.mozilla.org/en-GB/firefox/addon/foxyproxy-basic/)
 
 Set up browser proxy and certificate. Turn intercept on and in proxy options configure rules - "Or Request Was Intercepted", "And URL Is in target scope". Send to repeater or send to intruder.
 
@@ -105,7 +109,16 @@ Email servers and configurations for a particular domain: ```nslookup -type=MX e
 
 ```
 whois example.com
-nslookup example.com
+nslookup example.com     
+nmap -sL -n 0.0.0.0/0.     
+nmap -PR -sn 0.0.0.0/24     
+nmap -PE -sn 0.0.0.0/24     
+nmap -PP -sn 0.0.0.0/24     
+nmap -PM -sn 0.0.0.0/24.    
+nmap -PS -sn 0.0.0.0/24      
+sudo nmap -PA -sn MACHINE_IP/24
+arp-scan -l     
+
 ```
 
 
