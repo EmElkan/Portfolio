@@ -41,7 +41,22 @@ A set of guidelines and best practices to help organizations build and improve t
 
 ## Notes
 
-### Google Hacking
+### Manual Discovery
+
+- Page Source
+  - Comments (<!-- User, password -->)
+  - Links (/secret_page)
+  - Directories (/assets)
+  - Files (./info.zip)
+- /robots.txt
+- /sitemap.xml
+- Default favicon of framework [https://wiki.owasp.org/index.php/OWASP_favicon_database](https://wiki.owasp.org/index.php/OWASP_favicon_database)
+-  HTTP headers (versions, web server software, programming language)
+- Check for default credentials
+
+### OSINT (Open-Source Intelligence)
+
+- Google Hacking/Dorking
 
 [Google Hacking](https://en.wikipedia.org/wiki/Google_hacking) is a technique that uses Google Search and other Google applications to find security holes.
 
@@ -53,6 +68,13 @@ A set of guidelines and best practices to help organizations build and improve t
 | intitle  | intitle:admin  | 
 
 **Example:** "-site:www.example.com site:*.example.com" would only contain results leading to the domain name example.com but exclude any links to www.example.com.
+
+- [Wappalyzer](https://www.wappalyzer.com/)
+- [Wayback Machine](https://archive.org/web/)
+- GitHub search (Company, website names for areas and passwords)
+- S3 bucket permissions ((http(s)://**{name}.**[**s3.amazonaws.com**](http://s3.amazonaws.com/)) **{name}**-assets, **{name}**-www, **{name}**-public, **{name}**-private)    
+
+
 
 ### Cross-site Scripting (XSS)
 
