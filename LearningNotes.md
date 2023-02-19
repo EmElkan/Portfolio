@@ -56,9 +56,8 @@ A set of guidelines and best practices to help organizations build and improve t
 
 ### OSINT (Open-Source Intelligence)
 
-- Google Hacking/Dorking
+- [Google Hacking](https://en.wikipedia.org/wiki/Google_hacking)
 
-[Google Hacking](https://en.wikipedia.org/wiki/Google_hacking) is a technique that uses Google Search and other Google applications to find security holes.
 
 | Filter  | Example | 
 | ------------- | ------------- | 
@@ -67,7 +66,7 @@ A set of guidelines and best practices to help organizations build and improve t
 | inurl  | inurl:admin  | 
 | intitle  | intitle:admin  | 
 
-**Example:** "-site:www.example.com site:*.example.com" would only contain results leading to the domain name example.com but exclude any links to www.example.com.
+**Example:** "-site:www.example.com site:*.example.com" would only contain results leading to the domain name example.com such as www.staff.example.com but exclude any links to www.example.com.
 
 - [Wappalyzer](https://www.wappalyzer.com/)
 - [Wayback Machine](https://archive.org/web/)
